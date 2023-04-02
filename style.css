@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+	color: #fff;
+	background: royalblue;
+}
+
+
+h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	color: chartreuse;
+}
+
+
+.num {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	color: coral;
+}
